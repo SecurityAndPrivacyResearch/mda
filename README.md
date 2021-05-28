@@ -1,6 +1,6 @@
-# Nips2021 Robustness of Multimodal Learning in an Adversarial Setting
+# Robustness of Multimodal Learning in an Adversarial Setting
 
-The code provided in this repository is for MMBT-Hateful Memes
+The code provided in this repository is for MDA on MMBT-Hateful Memes
 
 To run the code, we first need the Facebook MMF framework installed.
 
