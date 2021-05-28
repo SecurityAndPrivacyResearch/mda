@@ -12,7 +12,7 @@ model_cls = registry.get_model_class('mmbt')
 model = model_cls.from_pretrained('mmbt.hateful_memes.images')
 model.cuda()
 
-dataset_dir = '/panasas/scratch/grp-hongxinh/datasets/data/'
+dataset_dir = ''
 
 data = [json.loads(i) for i in open(os.path.join(dataset_dir, 'dev_unseen.jsonl')).readlines()]
 
